@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="7" failed="0" skipped="2">
+  <reporter-output>
+    <line>
+      <![CDATA[open browser]]>
+    </line>
+    <line>
+      <![CDATA[open browser]]>
+    </line>
+    <line>
+      <![CDATA[open browser]]>
+    </line>
+    <line>
+      <![CDATA[Logingin]]>
+    </line>
+    <line>
+      <![CDATA[create Customer]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Logingin]]>
+    </line>
+    <line>
+      <![CDATA[create Task]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Logingin]]>
+    </line>
+    <line>
+      <![CDATA[create Project]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[closingBrowser]]>
+    </line>
+    <line>
+      <![CDATA[Logingin]]>
+    </line>
+    <line>
+      <![CDATA[modify Task]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Logingin]]>
+    </line>
+    <line>
+      <![CDATA[modify Customer]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Logingin]]>
+    </line>
+    <line>
+      <![CDATA[delete Task]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Logingin]]>
+    </line>
+    <line>
+      <![CDATA[delete Customer]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[closingBrowser]]>
+    </line>
+    <line>
+      <![CDATA[closingBrowser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-09-09T12:22:15 IST" name="Suite" finished-at="2023-09-09T12:23:24 IST" duration-ms="69440">
+    <groups>
+    </groups>
+    <test started-at="2023-09-09T12:22:15 IST" name="TestRun2" finished-at="2023-09-09T12:23:16 IST" duration-ms="61752">
+      <class name="com.project.testscripts.ProjectModule">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.project.testscripts.ProjectModule@75d3a5e0]" started-at="2023-09-09T12:22:15 IST" name="openBrowser" finished-at="2023-09-09T12:23:08 IST" duration-ms="53082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[open browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.project.testscripts.ProjectModule@75d3a5e0]" started-at="2023-09-09T12:23:08 IST" name="login" finished-at="2023-09-09T12:23:08 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logingin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createProject()[pri:1, instance:com.project.testscripts.ProjectModule@75d3a5e0]" started-at="2023-09-09T12:23:08 IST" name="createProject" finished-at="2023-09-09T12:23:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[create Project]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.project.testscripts.ProjectModule@75d3a5e0]" started-at="2023-09-09T12:23:08 IST" name="logout" finished-at="2023-09-09T12:23:12 IST" duration-ms="4269" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <a id="logoutLink" class="logout" href="/logout.do"> is not clickable at point (1496,17) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [454aab54-540d-4bca-a943-ec3432d805e0, clickElement {id=152394b0-101e-44a7-af77-48813f675553}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:20574, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17272, moz:profile: C:\Users\arpan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:20574/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (454aab54-540d-4bca-a943-ec3432d805e0)] -> xpath: //a[text()='Logout']]
+Session ID: 454aab54-540d-4bca-a943-ec3432d805e0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a id="logoutLink" class="logout" href="/logout.do"> is not clickable at point (1496,17) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [454aab54-540d-4bca-a943-ec3432d805e0, clickElement {id=152394b0-101e-44a7-af77-48813f675553}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:20574, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17272, moz:profile: C:\Users\arpan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:20574/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (454aab54-540d-4bca-a943-ec3432d805e0)] -> xpath: //a[text()='Logout']]
+Session ID: 454aab54-540d-4bca-a943-ec3432d805e0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at com.project.generic.BaseClass.logout(BaseClass.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.project.testscripts.ProjectModule@75d3a5e0]" started-at="2023-09-09T12:23:12 IST" name="login" finished-at="2023-09-09T12:23:12 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="modifyProject()[pri:2, instance:com.project.testscripts.ProjectModule@75d3a5e0]" started-at="2023-09-09T12:23:12 IST" name="modifyProject" finished-at="2023-09-09T12:23:12 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <a id="logoutLink" class="logout" href="/logout.do"> is not clickable at point (1496,17) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [454aab54-540d-4bca-a943-ec3432d805e0, clickElement {id=152394b0-101e-44a7-af77-48813f675553}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:20574, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17272, moz:profile: C:\Users\arpan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:20574/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (454aab54-540d-4bca-a943-ec3432d805e0)] -> xpath: //a[text()='Logout']]
+Session ID: 454aab54-540d-4bca-a943-ec3432d805e0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a id="logoutLink" class="logout" href="/logout.do"> is not clickable at point (1496,17) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [454aab54-540d-4bca-a943-ec3432d805e0, clickElement {id=152394b0-101e-44a7-af77-48813f675553}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:20574, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17272, moz:profile: C:\Users\arpan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:20574/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (454aab54-540d-4bca-a943-ec3432d805e0)] -> xpath: //a[text()='Logout']]
+Session ID: 454aab54-540d-4bca-a943-ec3432d805e0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at com.project.generic.BaseClass.logout(BaseClass.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyProject -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.project.testscripts.ProjectModule@75d3a5e0]" started-at="2023-09-09T12:23:12 IST" name="logout" finished-at="2023-09-09T12:23:12 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.project.testscripts.ProjectModule@75d3a5e0]" started-at="2023-09-09T12:23:12 IST" name="login" finished-at="2023-09-09T12:23:12 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteProject()[pri:3, instance:com.project.testscripts.ProjectModule@75d3a5e0]" started-at="2023-09-09T12:23:12 IST" name="deleteProject" finished-at="2023-09-09T12:23:12 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <a id="logoutLink" class="logout" href="/logout.do"> is not clickable at point (1496,17) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [454aab54-540d-4bca-a943-ec3432d805e0, clickElement {id=152394b0-101e-44a7-af77-48813f675553}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:20574, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17272, moz:profile: C:\Users\arpan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:20574/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (454aab54-540d-4bca-a943-ec3432d805e0)] -> xpath: //a[text()='Logout']]
+Session ID: 454aab54-540d-4bca-a943-ec3432d805e0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a id="logoutLink" class="logout" href="/logout.do"> is not clickable at point (1496,17) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [454aab54-540d-4bca-a943-ec3432d805e0, clickElement {id=152394b0-101e-44a7-af77-48813f675553}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:20574, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17272, moz:profile: C:\Users\arpan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:20574/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (454aab54-540d-4bca-a943-ec3432d805e0)] -> xpath: //a[text()='Logout']]
+Session ID: 454aab54-540d-4bca-a943-ec3432d805e0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at com.project.generic.BaseClass.logout(BaseClass.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.project.testscripts.ProjectModule@75d3a5e0]" started-at="2023-09-09T12:23:12 IST" name="logout" finished-at="2023-09-09T12:23:12 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.project.testscripts.ProjectModule@75d3a5e0]" started-at="2023-09-09T12:23:12 IST" name="closeBrowser" finished-at="2023-09-09T12:23:16 IST" duration-ms="3891" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closingBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.project.testscripts.ProjectModule -->
+    </test> <!-- TestRun2 -->
+    <test started-at="2023-09-09T12:22:15 IST" name="TestRun1" finished-at="2023-09-09T12:23:23 IST" duration-ms="68785">
+      <class name="com.project.testscripts.TaskModule">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.project.testscripts.TaskModule@4b45a2f5]" started-at="2023-09-09T12:22:15 IST" name="openBrowser" finished-at="2023-09-09T12:23:06 IST" duration-ms="51389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[open browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.project.testscripts.TaskModule@4b45a2f5]" started-at="2023-09-09T12:23:06 IST" name="login" finished-at="2023-09-09T12:23:06 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logingin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createTask()[pri:1, instance:com.project.testscripts.TaskModule@4b45a2f5]" started-at="2023-09-09T12:23:06 IST" name="createTask" finished-at="2023-09-09T12:23:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[create Task]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.project.testscripts.TaskModule@4b45a2f5]" started-at="2023-09-09T12:23:06 IST" name="logout" finished-at="2023-09-09T12:23:14 IST" duration-ms="7244" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.project.testscripts.TaskModule@4b45a2f5]" started-at="2023-09-09T12:23:14 IST" name="login" finished-at="2023-09-09T12:23:14 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logingin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="modifyTask()[pri:2, instance:com.project.testscripts.TaskModule@4b45a2f5]" started-at="2023-09-09T12:23:14 IST" name="modifyTask" finished-at="2023-09-09T12:23:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[modify Task]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- modifyTask -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.project.testscripts.TaskModule@4b45a2f5]" started-at="2023-09-09T12:23:14 IST" name="logout" finished-at="2023-09-09T12:23:19 IST" duration-ms="4669" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.project.testscripts.TaskModule@4b45a2f5]" started-at="2023-09-09T12:23:19 IST" name="login" finished-at="2023-09-09T12:23:19 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logingin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteTask()[pri:3, instance:com.project.testscripts.TaskModule@4b45a2f5]" started-at="2023-09-09T12:23:19 IST" name="deleteTask" finished-at="2023-09-09T12:23:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[delete Task]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteTask -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.project.testscripts.TaskModule@4b45a2f5]" started-at="2023-09-09T12:23:19 IST" name="logout" finished-at="2023-09-09T12:23:23 IST" duration-ms="4226" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.project.testscripts.TaskModule@4b45a2f5]" started-at="2023-09-09T12:23:23 IST" name="closeBrowser" finished-at="2023-09-09T12:23:23 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closingBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.project.testscripts.TaskModule -->
+    </test> <!-- TestRun1 -->
+    <test started-at="2023-09-09T12:22:15 IST" name="TestRun3" finished-at="2023-09-09T12:23:24 IST" duration-ms="69435">
+      <class name="com.project.testscripts.CustomerModule">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.project.testscripts.CustomerModule@53045c6c]" started-at="2023-09-09T12:22:15 IST" name="openBrowser" finished-at="2023-09-09T12:23:05 IST" duration-ms="50298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[open browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.project.testscripts.CustomerModule@53045c6c]" started-at="2023-09-09T12:23:05 IST" name="login" finished-at="2023-09-09T12:23:05 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logingin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCustomer()[pri:1, instance:com.project.testscripts.CustomerModule@53045c6c]" started-at="2023-09-09T12:23:05 IST" name="createCustomer" finished-at="2023-09-09T12:23:05 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[create Customer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.project.testscripts.CustomerModule@53045c6c]" started-at="2023-09-09T12:23:05 IST" name="logout" finished-at="2023-09-09T12:23:14 IST" duration-ms="8634" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.project.testscripts.CustomerModule@53045c6c]" started-at="2023-09-09T12:23:14 IST" name="login" finished-at="2023-09-09T12:23:14 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logingin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="modifyCustomer()[pri:2, instance:com.project.testscripts.CustomerModule@53045c6c]" started-at="2023-09-09T12:23:14 IST" name="modifyCustomer" finished-at="2023-09-09T12:23:14 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[modify Customer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- modifyCustomer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.project.testscripts.CustomerModule@53045c6c]" started-at="2023-09-09T12:23:14 IST" name="logout" finished-at="2023-09-09T12:23:19 IST" duration-ms="4614" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.project.testscripts.CustomerModule@53045c6c]" started-at="2023-09-09T12:23:19 IST" name="login" finished-at="2023-09-09T12:23:19 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logingin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteCustomer()[pri:3, instance:com.project.testscripts.CustomerModule@53045c6c]" started-at="2023-09-09T12:23:19 IST" name="deleteCustomer" finished-at="2023-09-09T12:23:19 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[delete Customer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.project.testscripts.CustomerModule@53045c6c]" started-at="2023-09-09T12:23:19 IST" name="logout" finished-at="2023-09-09T12:23:24 IST" duration-ms="4512" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.project.testscripts.CustomerModule@53045c6c]" started-at="2023-09-09T12:23:24 IST" name="closeBrowser" finished-at="2023-09-09T12:23:24 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closingBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.project.testscripts.CustomerModule -->
+    </test> <!-- TestRun3 -->
+  </suite> <!-- Suite -->
+</testng-results>
